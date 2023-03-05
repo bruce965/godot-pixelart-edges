@@ -1,0 +1,47 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+run/main_scene="res://scene.tscn"
+config/features=PackedStringArray("4.0", "Mobile")
+boot_splash/show_image=false
+
+[debug]
+
+shapes/navigation/geometry_face_disabled_color=Color(0.501961, 0.501961, 0.501961, 0.4)
+
+[display]
+
+window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+window/stretch/scale=4.0
+
+[dotnet]
+
+project/assembly_name="OrthoVoxelTest"
+
+[editor_plugins]
+
+enabled=PackedStringArray()
+
+[filesystem]
+
+import/blender/enabled=false
+import/fbx/enabled=false
+
+[rendering]
+
+textures/default_filters/use_nearest_mipmap_filter=true
+textures/default_filters/anisotropic_filtering_level=0
+textures/decals/filter=0
+textures/canvas_textures/default_texture_filter=0
+textures/canvas_textures/default_texture_repeat=1
